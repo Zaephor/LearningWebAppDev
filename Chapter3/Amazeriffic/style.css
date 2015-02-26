@@ -50,3 +50,39 @@ footer .sitemap {
   float: right;
   width: 285px;
 }
+
+main h2 {
+  font-size: 2.5em;
+  font-style: oblique;
+}
+
+main h3 {
+  font-size: 2em;
+  font-weight: 300;
+}
+
+main p {
+  color: red;
+}
+
+main > div > ul {
+  list-style:none;
+  background-color: #999;
+}
+
+main > div > ul > li:before {
+  content: '(?) ';
+}
+
+main ul > li > ul > li:before {
+  content: '(!) ';
+}
+
+main ul > li > ul > li {
+  background-color: #333;
+  color: #fff;
+}
+
+main li {
+  padding: 10px;
+}
